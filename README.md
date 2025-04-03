@@ -2,6 +2,11 @@
 
 This is a web application for browsing and exploring various meals. The project is built using modern web technologies and follows best practices for scalability and maintainability.
 
+## Live Demo
+
+Check out the live demo of the application here:
+
+[Live Demo](https://next-level-food-is82wu8q8-fareednizami1s-projects.vercel.app/)
 
 ### Key Directories
 
@@ -48,12 +53,28 @@ This is a web application for browsing and exploring various meals. The project 
 
 # Running the App
 To start the development server:
+
     ```bash
     npm run dev
 
-# The app will be available at http://localhost:3000.
+## The app will be available at http://localhost:3000.
 
 # Building for Production
 To build the app for production:
+
+    ```bash  
+    npm run build
+
+To start the production server:
+
+    ```bash
+    npm start
+
+## Database Initialization
+To initialize the database, run:
+
+    ```bash
+    node initdb.js
+    
 
 
